@@ -19,7 +19,7 @@ var fight = function() {
 
 // if player choses to fight, then fight
 if (promptFight === "fight" || promptFight === "FIGHT") {
-    // remove enemy's health by substracting the amount set in the playerAttack variable
+    // remove enemy's health by subtracting the amount set in the playerAttack variable
     enemyHealth = enemyHealth - playerAttack;
     console.log(
         playerName + " attacked " + enemyName + ". " + enemyName + " now has " + enemyHealth + " health remaining."
